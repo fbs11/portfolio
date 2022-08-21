@@ -1,0 +1,53 @@
+.app__home{
+    background: #fbde55;
+    height: 100vh;
+    overflow:hidden;
+    justify-content: center;
+}
+
+.app__home-title{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    img{
+        cursor:pointer;
+        
+        @media only screen and (min-width:300px) {
+            width: 360px;
+            height: 130px;
+        }
+        @media only screen and (min-width:770px) {
+            width: 450px;
+            height: 170px;
+        }
+        @media only screen and (min-width:1200px) {
+            width: 540px;
+            height: 195px;
+        }
+        @media only screen and (min-width:2000px) {
+            width: 720px;
+            height: 260px;
+        }
+        
+    }
+    
+
+}
+
+.app__home-basketball{
+    display: flex;
+    height: 0px;
+    img{
+        cursor:pointer;
+        height: 70px;
+        width: 72px;
+        z-index: 4;
+
+        @media only screen and (max-width:770px) {
+            display: none;
+    }
+}
+    
+}

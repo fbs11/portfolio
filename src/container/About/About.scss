@@ -1,0 +1,87 @@
+.app__about{
+    background: #fbde55;
+    height: 100vh;
+    font-family:'Ubuntu';
+    font-weight: 550;
+}
+
+.app__about-info-1{
+    width: 30%;
+    text-align: start;
+    display: flex;
+    position: relative;
+    left:15%;
+    font-size: 28px;
+
+    @media only screen and (min-width:300px) {
+        font-size: 12px;
+        
+        width: 40%;
+        left: 10%;
+        text-align: center;
+    }
+    @media only screen and (min-width:770px) {
+       
+    }
+    @media only screen and (min-width:1200px) {
+        width: 540px;
+        height: 195px;
+    }
+}
+.app__about-info-2{
+    width: 30%;
+    text-align:end;
+    display: flex;
+    position: relative;
+    left:65%;
+    font-size: 26px;
+    @media only screen and (min-width:300px) {
+        font-size: 12px;
+        width: 40%;
+        left:50%;
+        text-align: center;
+    }
+}
+.app__about-info-3{
+    width: 30%;
+    text-align: start;
+    display: flex;
+    position: relative;
+    left: 6%;
+    top: 15%;
+    font-size: 22px;
+    @media only screen and (min-width:300px) {
+        font-size: 12px;
+        width: 50%;
+        text-align: center;
+    }
+}
+.app__about-info-4{
+    width: 30%;
+    text-align: end;
+    display: flex;
+    position: relative;
+    left: 63%;
+    top:20%;
+    font-size: 23px;
+    @media only screen and (min-width:300px) {
+        font-size: 12px;
+        width: 50%;
+        text-align: center;
+    }
+
+}
+.app__about-info-5{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 35%;
+    top:35%;
+    font-size: 26px;
+    @media only screen and (min-width:300px) {
+        font-size: 12px;
+        width: 50%;
+    }
+
+}
